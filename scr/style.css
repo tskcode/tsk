@@ -1,0 +1,71 @@
+body{
+    background-image: url(handshold.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    
+    border-style:solid;
+    border-width: 3px;
+    border-color:plum;
+    border-radius:7px;
+    font-family:verdana, arial;
+    font-weight:bold;
+    text-shadow: 3px 3px 6px plum,-3px -3px 6px rgb(89, 205, 241);
+    
+}
+
+#main{
+    font-family: "lora";
+    font-size: 1.1em;
+    border-top:3px dashed purple;
+    
+}
+
+pre::selection{
+    color:greenyellow;
+    background-color: black;
+}
+
+#dark{
+    text-shadow:3px 3px 5px;
+    font-size: 1.1em;
+    
+}
+#dark:hover{
+    background-color: rgb(162, 53, 174);
+}
+#last{
+    font-family:"lora";
+    font-size: 1.1em;
+    border-bottom:3px dashed purple;
+}
+i{
+    font-family:Pacifico;
+    border:3px ridge palevioletred;
+}
+#Reply{
+    border:3px ridge rgb(21, 34, 71);
+}
+#ck{
+    box-shadow: 5px 5px 5px;
+}
+
+#box1{
+    width: 30px;
+    height: auto;
+    position: fixed;
+    top: 65px;
+    right: 0px;
+    
+}
+#ck p{
+    display: none;
+}
+#ck:hover p{
+    display: block;
+}
+
